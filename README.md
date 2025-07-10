@@ -6,6 +6,10 @@ The official website for **Timerfy** - an open-source distributed countdown time
 
 Timerfy provides a flexible, high-performance timer solution for various professional and educational settings. The core system delivers real-time synchronization with sub-100ms latency and supports multiple concurrent users.
 
+## Screenshot
+
+![Timerfy Website](screenshots/website.png)
+
 ### Key Features
 
 - **Real-time synchronization** with sub-100ms latency
