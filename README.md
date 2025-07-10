@@ -1,30 +1,83 @@
-# Timerfy design
+# Timerfy Website
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+The official website for **Timerfy** - an open-source distributed countdown timer system designed for real-time synchronization across multiple devices.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/popands-projects/v0-timerfy-design)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/PFdeTUOdod4)
+## About Timerfy
 
-## Overview
+Timerfy provides a flexible, high-performance timer solution for various professional and educational settings. The core system delivers real-time synchronization with sub-100ms latency and supports multiple concurrent users.
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+### Key Features
 
-## Deployment
+- **Real-time synchronization** with sub-100ms latency
+- **Multi-device support** (desktop, tablet, mobile)
+- **Scalable architecture** supporting 50+ concurrent rooms with 20+ viewers each
+- **Automatic room management** with 24-hour expiration
+- **Customizable timer configurations**
+- **REST API and WebSocket integration**
+- **Open-source** with MIT license
 
-Your project is live at:
+### Use Cases
 
-**[https://vercel.com/popands-projects/v0-timerfy-design](https://vercel.com/popands-projects/v0-timerfy-design)**
+- Conference presentations
+- Classroom activities
+- Corporate events
+- Sports competitions
+- Broadcasting
+- Workshop timing
 
-## Build your app
+## Technology Stack
 
-Continue building your app on:
+**Backend (Core System):**
+- Java 17+ with Spring Boot
+- Redis for state management
+- Spring WebSocket with STOMP protocol
 
-**[https://v0.dev/chat/projects/PFdeTUOdod4](https://v0.dev/chat/projects/PFdeTUOdod4)**
+**Frontend (This Website):**
+- Next.js 15 with React 19
+- TypeScript
+- Tailwind CSS
+- Radix UI components
 
-## How It Works
+## Related Projects
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- **[Timerfy Server](https://github.com/popand/Timerfy)** - The core distributed timer system
+- **[API Documentation](https://docs.timerfy.io)** - Complete API reference
+- **[Support](mailto:support@timerfy.io)** - Technical support and questions
+
+## Development
+
+This website is built with Next.js and serves as the main landing page and documentation for the Timerfy project.
+
+### Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+### Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+
+## Contributing
+
+We welcome contributions to both the website and the core Timerfy system. Please see the [main repository](https://github.com/popand/Timerfy) for contribution guidelines.
+
+## License
+
+MIT License - see the [LICENSE](https://github.com/popand/Timerfy/blob/main/LICENSE) file for details.
+
+## Support
+
+- **GitHub Issues**: [Report issues](https://github.com/popand/Timerfy/issues)
+- **Email**: support@timerfy.io
+- **Documentation**: [docs.timerfy.io](https://docs.timerfy.io)

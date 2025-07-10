@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description: "Real-time synchronized countdown timers across multiple devices",
     type: "website",
   },
-    generator: 'v0.dev'
+    generator: 'Next.js'
 }
 
 export default function RootLayout({
